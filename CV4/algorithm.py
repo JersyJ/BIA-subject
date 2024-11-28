@@ -52,8 +52,6 @@ def algorithm_core(population: list, config: Config):
     best_population = []
     progress = []
 
-    print(f"Start of the algorithm, generating {str(config.generations)} generations")
-    print("-----------------------------------------------")
     print("Generations\tCurrent result\tChange")
     print("-----------------------------------------------")
 

@@ -17,10 +17,10 @@ class Config:
         mutation_rate: float,
         generations: int,
         crossover_rate: float,
-        target: float,
         cities_file,
         cities_length: int,
-        distance_method       
+        distance_method,
+        target: float = 0,       
     ):
         self.population_size = population_size
         self.tournament_selection_size = tournament_selection_size
